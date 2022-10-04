@@ -34,3 +34,6 @@ class BaseTransform():
 
     def __call__(self, img) -> np.array:
         return self.base_transform(img)
+
+
+print(BaseTransform)
